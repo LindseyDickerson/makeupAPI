@@ -1,0 +1,67 @@
+/* font-family: 'Special Elite', cursive;
+font-family: 'Arima Madurai', cursive;
+font-family: 'Emilys Candy', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Walter Turncoat', cursive;
+font-family: 'Finger Paint', cursive; 
+font-family: 'Pangolin', cursive;
+font-family: 'Sriracha', cursive;*/
+
+
+body {
+    background-image: url("./assets/makeupBrushes.jfif"); 
+    height: 100vh;
+    width: 100vw; 
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cceae5;
+    background-size: 100% 100%;
+    z-index: 0;
+    
+}
+.makeupMagic h1 {
+    font-family: 'Emilys Candy', cursive;
+    text-align: center;
+    font-size: 80px;
+    color: #008080;  
+    text-shadow: 3px 3px #90d2d8;    
+    word-spacing: 10px;
+}
+#explain h3 {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: #004040;
+    text-shadow: 1px 1px #90d2d8;
+}
+
+form {
+    font-family: 'Walter Turncoat', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: #004040;
+    text-shadow: 1px 1px #90d2d8
+    
+    
+}
+
+.submit {
+    font-family: 'Walter Turncoat', cursive;
+    color: #004040;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 6px;
+    border: #004040; 
+}
+
+#search {
+    border-radius: 6px;
+    border-color: GAINSBORO;
+    height: 20px;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 18px;
+    color: #004040;
+    background-color: lightgray;
+}
