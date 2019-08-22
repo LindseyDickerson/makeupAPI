@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Makeup Magic</title>
     <link rel="stylesheet" href="./makeup.css">
-    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Caveat+Brush|Emilys+Candy|Finger+Paint|Handlee|Pangolin|Special+Elite|Sriracha|Walter+Turncoat&display=swap" rel="stylesheet">;
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Caveat+Brush|Emilys+Candy|Finger+Paint|Handlee|Pangolin|Special+Elite|Sriracha|Walter+Turncoat&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="makeupMagic"><h1>Makeup Magic</h1></div>
-    <div id="explain"><h3>Search by makeup brand (Maybelline), product type (blush), or special concerns (gluten-free).</h3></div>
+    <div id="explain"><h3>Search by makeup brand to see what's available!</h3></div>
     <br>
     
     <form> <!--opens up a form-->
         <p> <!-- begins paragraph-->
-            <label for="search">I'm looking for:</label> <!-- label defines text label; adds text -->
+            <label for="search">Check the collection:</label> <!-- label defines text label; adds text -->
             <input type="text" id="search" class="search" required> <!--The <input> tag specifies an input [freeform] field where the user can enter data. Declares div ID and class -->
         </p> <!--closes paragraph/text -->
         <p>
@@ -24,9 +24,10 @@
         </p>
     </form>
 
+    <div class="products"></div>
 
 
 
-    <script src="js/makeup.js"></script>
+    <script src="makeup.js"></script>
 </body>
 </html>
